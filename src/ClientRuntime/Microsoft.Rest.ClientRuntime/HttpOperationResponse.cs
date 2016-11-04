@@ -56,7 +56,7 @@ namespace Microsoft.Rest
     /// <summary>
     /// Represents the base return type of all ServiceClient REST operations without response body.
     /// </summary>
-    public class HttpOperationResponse : IHttpOperationResponse, IDisposable
+    public class HttpOperationResponse : IHttpOperationResponse
     {
         /// <summary>
         /// Indicates whether the HttpOperationResponse has been disposed. 
